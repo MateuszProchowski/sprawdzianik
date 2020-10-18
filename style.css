@@ -52,7 +52,7 @@ body{
     width: 300px;
     height: 300px;
     margin-top: 5%;
-    margin-left: 37.3%;
+    margin-left: 35%;
 }
 
 .button {
@@ -68,7 +68,7 @@ body{
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-row: 0;
-    margin-left: 9%;
+    margin-left: 5%;
     padding: 45px;
 }
 
@@ -101,7 +101,7 @@ body{
 
 .trm{
     width: 1000px;
-    margin-left: 24.4%;
+    margin-left: 25%;
 }
 
 .rgd{
@@ -117,4 +117,135 @@ body{
     font-size: 25px;
     justify-content: space-around;
     align-items: center;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+align-items: center;
+justify-content: space-between;
+min-height: 8vh;
+background-color: black;
+font-family: 'Open Sans', sans-serif;
+box-shadow: 2px 2px 12px rgba(0,0,0,0.45);
+position: fixed;
+width: 100%;
+}
+
+
+
+.nav-links{
+    display: flex;
+    width: 18%;
+    justify-content: space-between;
+  margin-right: 8px;
+}
+.logo {
+    font-size: 25px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+margin-left: 7px;
+}
+
+.nav-links a{
+color: white;
+text-decoration: none;
+font-weight: bold;
+font-family: 'Open Sans', sans-serif;
+letter-spacing: 1px;
+font-size: 17px;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+nav ul li a::after{
+    height: 2px;
+    content: "";
+    display: block;
+    margin: auto;
+    transition: 1s;
+    width: 0;
+    background-color: white;
+}
+
+nav ul li a:hover:after{
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    
+    background-position: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.language {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+font-family: 'Open Sans', sans-serif;
+}
+
+
+.telewizorimg{
+    align-items: center;
+    justify-content: center;
+    margin-left: 28%;
+    position: relative;
+    margin-top: 2%;
+}
+
+.tekstnazdjeciu {
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    margin-left: 43%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+
+.content-area{
+    max-height: 943px;
+    width: 100%;
+    margin: auto;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.55);
+   
+}
+
+.headernapis {
+    font-weight: 600;
+    font-size: 80px;
+    position: absolute;
+    top: 47%;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    right: 44.1%;
+    cursor: pointer;
+}
+
+.ramka{
+    border: 2px solid black;
+    border-radius: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+ font-weight: 300;
+ box-shadow: 2px 2px 12px rgba(0,0,0,0.55);
+}
+
+.ramka h1{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 45%;
+    font-weight: 900;
 }
